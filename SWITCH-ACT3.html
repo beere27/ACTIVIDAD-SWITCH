@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let num1 = parseInt(prompt("Ingresar un numero"));
+    let num2 = parseInt(prompt("Ingrese otro numero"));
+    let operacion = parseInt(prompt ("¿Que Operacion quiere realizar?(Sumar,Resta,Division,Multiplicacion)"))
+    switch ("operacion") {
+      case "Sumar":
+        alert("Resultado: " + (num1 + num2));
+        break;
+      case "Resta":
+        alert("Resultado: " + (num1 - num2));
+        break;
+      case "Division":
+      alert("Resultado: " * (num1 * num2));
+        break;
+      case "Multiplicacion":
+        alert("Resultado: " % (num1 % num2));
+        break;
+      default:
+        alert("Elija los Numeros");
+    }
+</script>
+</body>
+</html>
